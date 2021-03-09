@@ -6,17 +6,15 @@ import 'package:flutter_svg/svg.dart';
 class ImageAndIcons extends StatelessWidget {
   const ImageAndIcons({
     Key key,
-    @required this.size,
   }) : super(key: key);
-
-  final Size size;
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.only(bottom: kDefaultPadding * 3),
       child: SizedBox(
-        height: size.height * 0.8,
+        height: size.height * 0.7,
         child: Row(
           children: [
             // 버튼
