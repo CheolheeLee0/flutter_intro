@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_intro/constraints.dart';
+import 'package:flutter_intro/screens/details/details_screen.dart';
 import 'package:flutter_intro/screens/home/home_screen.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: HomeScreen(),
+      // home: DetailsScreen(),
     );
   }
 }
