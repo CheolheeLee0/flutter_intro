@@ -22,12 +22,13 @@ class Body extends StatelessWidget {
             text: "Recommended",
             press: () {},
           ),
-          // 오른쪽으로 스크롤 이동
+          // 오른쪽으로 스크롤 이동 가능
           RecommendsPlants(),
           TitleWithMoreBtn(
             text: "Featured Plants",
             press: () {},
           ),
+          // 오른쪽으로 스크롤 이동 가능
           FeaturedPlants(),
           SizedBox(
             height: kDefaultPadding,
