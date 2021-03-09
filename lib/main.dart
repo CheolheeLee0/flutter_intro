@@ -4,7 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_intro/constraints.dart';
-import 'package:flutter_intro/screens/home/components/home_screen.dart';
+import 'package:flutter_intro/screens/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());
